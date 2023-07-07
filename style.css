@@ -1,0 +1,93 @@
+*{
+    background:#f4bfd1;
+    font-family: 'Bad Script', sans-serif ;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 150%;
+    
+}
+
+.logo{
+    padding-top: 5px;
+    margin-left: 5px;
+    width: 8%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+}
+
+.text-area{
+    border: none;
+    color: #cae5ee ;
+    margin-top: 70px;
+    text-transform: lowercase;
+}
+::placeholder { color:#8cc7d7;}
+.text-area:focus{
+    outline: none;
+}
+
+.mensaje{
+    background: #f2e5b1;
+    background-image: url(img/holls-cute.gif) ;
+    background-repeat: no-repeat;
+    border-top: #69b2c6;
+    border-radius: 24px;
+    color: #8cc7d7;
+    margin-left: 90px;
+    margin-top: 5px;
+    position: fixed;
+}
+.mensaje:focus{
+    outline: none;
+    
+}
+.botones{
+    display: flex;
+    margin-top: 10px;
+}
+
+.btn-desencriptar{
+    background: #CAE5EE;
+    border: 1px solid #8CC7D7;
+    border-radius: 24px;
+    color: #69b2c6;
+    cursor: pointer;
+    height: 60px;
+    margin-left: 20px;
+    width: 300px;
+}
+.btn-encriptar{
+    background-color: #F3E093 ;
+    border: 1px solid  #CAE5EE;
+    border-radius: 24px;
+    color: #d39d8c;
+    cursor: pointer;
+    height: 60px;
+    width: 300px;
+}
+
+.copiar{
+    background: #D8AFA1;
+    border: 1px solid #69b2c6;
+    border-radius: 24px;
+    color: #F3E093;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 99px;
+    margin-top: 452px;
+    position: absolute;
+    width: 336px;
+}
+.informacion{
+    color: #69b2c6;
+    font-size: 18px;
+}
+
+
+
+
